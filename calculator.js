@@ -98,6 +98,7 @@ function doubleOperation(){
 
 addButton.addEventListener('click', () => {
     if( doubleOperation()){
+        operator = '+';
         return;
     }
     operator = '+';
@@ -105,6 +106,7 @@ addButton.addEventListener('click', () => {
 
 subtractButton.addEventListener('click', () => {
     if( doubleOperation()){
+        operator = '-';
         return;
     }
     operator = '-';
@@ -112,6 +114,7 @@ subtractButton.addEventListener('click', () => {
 
 multiplyButton.addEventListener('click', () => {
     if ( doubleOperation()){
+        operator = 'x';
         return;
     }
     operator = 'x';
@@ -119,6 +122,7 @@ multiplyButton.addEventListener('click', () => {
 
 divideButton.addEventListener('click', () => {
     if ( doubleOperation()){
+        operator = '÷';
         return;
     }
     operator = '÷';
